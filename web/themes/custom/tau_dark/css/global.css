@@ -1,0 +1,124 @@
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+  background-color: #1c221f;
+  color: #d1d1d1;
+  font-size: 16px;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #6c897d;
+  font-weight: 500;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin-block-start: 0em;
+  padding-inline-start: 0px;
+}
+header {
+  background: #495a51;
+  padding: 2rem;
+}
+.content {
+  position: relative;
+  width: 60%;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 90px;
+}
+
+.content img {
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.content h2 {
+  margin-top: 3rem;
+}
+
+.footer {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background-color: #13171c;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+}
+
+#block-tau-dark-site-branding {
+  /* padding: 2rem; */
+}
+
+#block-tau-dark-site-branding a {
+  font-size: 2rem;
+  color: #fff;
+}
+.heading {
+  color: #fff;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#block-tau-dark-main-menu ul {
+  z-index: 5;
+  width: 80%;
+  display: inline-block;
+}
+
+#block-tau-dark-main-menu ul li {
+  padding: 10px;
+  width: 10%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  background-color: #e6dada;
+  border: 2px solid #e6dada;
+  transition: 500ms;
+}
+
+#block-tau-dark-main-menu ul li:hover {
+  color: #e6dada;
+  background-color: #13171c;
+}
+
+#block-tau-dark-footer ul li {
+  display: inline-block;
+}
+
+#block-tau-dark-footer ul li a {
+  display: inline-block;
+  color: #efefef;
+}

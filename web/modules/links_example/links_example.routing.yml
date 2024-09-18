@@ -1,0 +1,7 @@
+links_example.page:
+  path: "/linksexample"
+  defaults:
+    _controller: '\Drupal\links_example\Controller\LinksExampleController::displayLinks'
+    _title: "Links example module"
+  requirements:
+    _permission: "access content"

@@ -1,0 +1,15 @@
+name: icecream
+type: theme
+description: 'Custom test theme.'
+core_version_requirement: ^10 || ^11
+libraries:
+  - icecream_theme/global
+base theme: false
+version: 0.0.1
+
+regions:
+  header: header
+  menu: menu
+  content: content
+  sidebar_first: sidebar_first
+  footer: footer
